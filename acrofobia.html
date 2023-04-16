@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\css\acrofobia.css">
+
+    <title>CLASIFICACIÓN DSM IV PARA ACROFOBIA</title>
+
+</head>
+
+<h1>PRUEBA VIRTUAL DE VHISS</h1> 
+<div class="container">
+    <div class="mySlides">
+        <img src="assets\img\imagen 1.jpg" alt="imagen-1">
+    </div>
+    <div class="mySlides">
+        <img src="assets\img\imagen 2.jpg" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="assets\img\imagen 3.jpg" alt="">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="elements">
+        <span class="quadrate" onclick="currentSlide(1)"></span>
+        <span class="quadrate" onclick="currentSlide(2)"></span>
+        <span class="quadrate" onclick="currentSlide(3)"></span>
+    </div>
+</div>
+
+
+<P>Definición de VHISS: se trata de la intolerancia visual a las alturas, esta prueba se realiza para personas que van a realizar labores en alturas extremas, para saber si son aptos.<br>
+    la prueba de la IPS pajarito se efectua en realidad virtual, el presente aplicativo es un test clínico previo que busca disminuir el riesgo de un ataque de pánico durante la prueba.<br>
+</P>
+
+<body>
+
+
+    <h1>CLASIFICACIÓN DSM IV PARA ACROFOBIA</h1> 
+    <p>Antes de aplicar la prueba es necesario validar los criterios de acrofobia, si el paciente clasifica con diagnóstico de acrofobia no se recomienda realizar la prueba.</p>
+    </div><br>
+    <h1>LISTA A</h1> 
+    <div class= "lista_A">
+        <img src="assets\img\LISTA A.jpg">
+        <P>Verifica los criterios de la lista segun las respuestas del paciente e ingresalos en los criterios.</P>
+    </div>
+
+    
+    <div class="VHISS">
+    <h4>CRITERIOS DE ACROFOBIA DSM IV </h4>
+    <div class="box">
+        <h4>CRITERIO 1</h4>
+        <p>Escriba 1 si se cumple el criterio o 0 si no se cumple</p>
+        <div class="input-box">
+        <input id="criterio_1" class="datos" type="number" placeholder="Pregunte a su paciente si ha presentado cualquier sintoma  autónomo de la lista A."/>
+        </div><br>
+        <h4>CRITERIO 2</h4>
+        <p>Escriba 1 si se cumple el criterio o 0 si no se cumple</p>
+        <div class="input-box">
+        <input id="criterio_2" class="datos" type="number" placeholder="Pregunte a su paciente si ha presentado cualquier sintoma  general de la lista A."/>
+        </div><br>
+        <h4>CRITERIO 3</h4>
+        <p>Escriba 1 si se cumple el criterio o 0 si no se cumple</p>
+        <div class="input-box">
+        <input id="criterio_3" class="datos" type="number" placeholder="Pregunte a su paciente si ha padecido VHISS durante 6 meses continuos."/>
+        </div><br>
+        <h4>CRITERIO 4</h4>
+        <p>Escriba 1 si se cumple el criterio o 0 si no se cumple</p>
+        <div class="input-box">
+        <input id="criterio_5" class="datos" type="number" placeholder="Pregunte: siente miedo intenso o extremadamente fuerte cuando se expone a alturas?"/>
+        </div><br>
+        <h4>CRITERIO 5</h4>
+        <p>Escriba 1 si se cumple el criterio o 0 si no se cumple</p>
+        <div class="input-box">
+        <input id="criterio_5" class="datos" type="number" placeholder="Pregunte: de antemano trata de evitar la exposición a alturas?"/>
+        </div><br>
+    <input type="submit" id="analizar" value="analizar" class="boton"/>
+    <p>Al dar clic en analizar se clasificará al paciente y se registraran su resultados en la base de datos de acuerdo al id de número de ingreso al sistema de historias clínicas, verifique antes de enviar.</p><br>
+    </div>
+
+    <div class="result">
+    <h4>ANALISIS DE CRITERIOS DE ACROFOBIA DSM IV</h4>
+    <p>Segun los datos ingresados del paciente se considera que:</p>
+    <h4>IMPRESIÓN DIAGNÓSTICA:</h4>
+    <input type="text" id="acrofobia_1" readonly onmousedown="return false;" >
+    <script type="text/javascript" src="assets\js\acrofobia.js"></script>
+    </div>
+
+    <p>SI ingresaste un dato erroneo por favor escribe al siguiente correo: 
+        <a class="enlace" href="#">cometiunerror@pajarito.com</a>   
+    </p>
+</body>
+
+
+</html>
