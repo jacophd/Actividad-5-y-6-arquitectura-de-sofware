@@ -7,5 +7,6 @@ Modelo de producto:  Para realizar la maqueta del proyecto se utiliza el softwar
 Modelos del aplicativo: El modelo consiste en una vista de una página web continua, en el encabezado presenta la información concerniente a la prueba VHISS, con un carrusel de imágenes de esta prueba, posteriormente cuenta con la lista A, y al final presenta un formulario para evaluar los criterios de diagnóstico presuntivo de acrofobia para aplicar.
 enlace del mockup.
 https://www.figma.com/proto/Zpbh40Ka13iY5UEHn0aGx3/CLASIFICACI%C3%93N-DSM-IV-PARA-ACROFOBIA?node-id=1-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2  
+se adjunta archivo en formato SVG como previsualización del mockup.
 Bibliografia:  Blancarte, O. (15 de 03 de 2023). reactiveprogramming.io. Obtenido de Arquitectura Cliente-Servidor: https://reactiveprogramming.io/blog/es/estilos-arquitectonicos/cliente-servidor
 
