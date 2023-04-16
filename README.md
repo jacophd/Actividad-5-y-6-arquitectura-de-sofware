@@ -8,5 +8,9 @@ Modelos del aplicativo: El modelo consiste en una vista de una página web conti
 enlace del mockup.
 https://www.figma.com/proto/Zpbh40Ka13iY5UEHn0aGx3/CLASIFICACI%C3%93N-DSM-IV-PARA-ACROFOBIA?node-id=1-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2  
 se adjunta archivo en formato SVG como previsualización del mockup.
-Bibliografia:  Blancarte, O. (15 de 03 de 2023). reactiveprogramming.io. Obtenido de Arquitectura Cliente-Servidor: https://reactiveprogramming.io/blog/es/estilos-arquitectonicos/cliente-servidor
+Bibliografía:
+Arciniegas Herrera, J. L., Collazos Ordóñez, C. A., Fernández de Valdenebro, M. V., Hormiga Juspian, M. A., Tulande Arroyo, A. (2010). Patrones arquitectónicos sobre usabilidad en el dominio de las aplicaciones web. Ingeniería e Investigación, 30 (1), 52-55.
+Comunidad NI. (5 de 01 de 2022). knowledge.ni.com. Obtenido de Patrones de diseño de aplicaciones: maestro / esclavo: https://knowledge.ni.com/KnowledgeArticleDetails?id=kA03q000000x1r9CAA&l=es-ES
+programmerclick.com. (18 de 03 de 2023). programmerclick.com. Obtenido de 10 patrones comunes de arquitectura de software: https://programmerclick.com/article/85821676094/
+
 
